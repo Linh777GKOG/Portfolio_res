@@ -74,6 +74,7 @@ img {
   height: auto;
   display: block;
 }
+
 /*===== CLASS CSS ===== */
 .section-title {
   position: relative;
@@ -100,6 +101,7 @@ img {
   padding-top: 3rem;
   padding-bottom: 2rem;
 }
+
 /*===== LAYOUT =====*/
 .bd-grid {
   max-width: 1024px;
@@ -172,6 +174,7 @@ img {
   font-size: 1.5rem;
   cursor: pointer;
 }
+
 /*Active menu*/
 .active::after {
   position: absolute;
@@ -378,4 +381,32 @@ img {
   font-size: var(--normal-font-size);
   cursor: pointer;
   margin-left: auto;
+}
+
+/* ===== FOOTER =====*/
+.footer {
+  background-color: var(--second-color);
+  color: #fff;
+  text-align: center;
+  font-weight: var(--font-semi);
+  padding: 2rem 0;
+}
+
+.footer__title {
+  font-size: 2rem;
+  margin-bottom: var(--mb-4);
+}
+
+.footer__social {
+  margin-bottom: var(--mb-4);
+}
+
+.footer__icon {
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 0 var(--mb-2);
+}
+
+.footer__copy {
+  font-size: var(--smaller-font-size);
 }
